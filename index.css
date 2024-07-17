@@ -1,0 +1,196 @@
+@import url('https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.4.2/uicons-bold-rounded/css/uicons-bold-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.4.2/uicons-brands/css/uicons-brands.css');
+/* Fonts and BG color */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Anonymous Pro', monospace;
+  transition: 0.4s;
+}
+
+/* Nav bar & dropdown menu */
+.topnav {
+  position: sticky;
+  font-size: 20px;
+  display: flex;
+  top:0;
+  background-color: #000000;
+  z-index: 2;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+}
+
+.topnav img {
+  flex: 0 0 auto; /* Ensures the logo does not stretch */
+}
+
+.topnav .dropdown, .topnav a {
+  flex: 1; /* Distributes space evenly */
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.topnav .dropdown {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  position: relative; /* Ensures absolute positioning within this element */
+}
+
+.topnav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  top: 100%; /* Position below the nav bar */
+  min-width: 190px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  background-color: #000000; 
+  cursor: pointer;
+  color: #1b60d0;
+  display: block;
+}
+
+.topnav a:hover{
+  background-color: black; 
+  cursor: pointer;
+  color: #c2c8d1;
+  padding: 10px 10px 10px 10px;
+
+}
+
+/* Dropdown Menu Content*/
+.dropdown-content a {
+  color: white;
+  padding: 12px 20px;
+  width: 440px;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color:#ffffff;
+  padding: 10px 10px 10px 30px;
+  background-color: #292929;
+}
+
+/* Main content */
+.header{
+  color:white;
+  padding: 90px 40px 40px 90px;
+  background-color: #ffffff;
+  background-image: url('images/cyber-security.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-position: center bottom;
+  background-size: cover;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.header h1 {
+  font-size: 70px;
+}
+
+.header h1:hover {
+  color: #c3023a;
+}
+
+.image {
+  width:100%;
+  background-image: url('images/cyber-security.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.flexbox{
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction:  column;
+}
+
+/* Button*/
+.buttonNetshield{
+   text-decoration: none;
+   color:black;
+   background-color: white;
+   border-radius: 40px;
+   border: 1px solid #000000; 
+   padding: 5px 55px 5px 55px;
+  }
+
+.buttonNetshield:hover {
+   outline: none;
+   border: 1px solid #380000;
+   color: #c20000;
+}
+
+#aboutUs{
+  background-color: transparent;
+  padding: 150px 0px 0px 0px;
+  
+}
+#aboutUs-content{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+
+.team-member{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(0, 0, 0,0.7);
+  box-shadow: 0px 4px 4px 0px rgb(0, 0, 0,0.3);
+}
+
+#missionStatement{
+  padding: 200px 0px 50px 0px;
+  background-color: transparent;
+}
+
+/* Footer */
+
+#footer{
+  line-height: 45px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  background-color:black;
+  color:white;
+  padding:40px;
+  box-shadow:inset 5px -5px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+#footer a{
+  background-color:rgba(0,0,0,0.9);
+  color:white;
+}
+.footer1{
+  background-color:rgba(0,0,0,0.9);
+  color:white; 
+  padding:40px;
+  display:flex;
+  flex-direction:column;
+}
+.footer2{
+  background-color:rgba(0,0,0,0.9);
+  color:white;
+  padding:40px;
+  display:flex;
+  flex-direction:column;
+}
