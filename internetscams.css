@@ -1,0 +1,178 @@
+@import url('https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.4.2/uicons-bold-rounded/css/uicons-bold-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.4.2/uicons-bold-rounded/css/uicons-bold-rounded.css');
+/* Fonts and BG color */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Anonymous Pro', monospace;
+  transition: 0.4s;
+}
+
+/* Nav bar & dropdown menu */
+.topnav {
+  position: sticky;
+  font-size: 20px;
+  display: flex;
+  top:0;
+  background-color: #000000;
+  z-index: 200;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+}
+
+.topnav img {
+  flex: 0 0 auto; /* Ensures the logo does not stretch */
+}
+
+.topnav .dropdown, .topnav a {
+  flex: 1; /* Distributes space evenly */
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.topnav .dropdown {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  position: relative; /* Ensures absolute positioning within this element */
+}
+
+.topnav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  top: 100%; /* Position below the nav bar */
+  min-width: 190px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  background-color: #000000; 
+  cursor: pointer;
+  color: #1b60d0;
+  display: block;
+}
+
+.topnav a:hover{
+  background-color: black; 
+  cursor: pointer;
+  color: #c2c8d1;
+  padding: 10px 10px 10px 10px;
+
+}
+
+/* Dropdown Menu Content*/
+.dropdown-content a {
+  color: white;
+  padding: 12px 20px;
+  width: 440px;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color:#ffffff;
+  padding: 10px 10px 10px 30px;
+  background-color: #292929;
+}
+.header h1 {
+  font-size: 60px;
+}
+
+.header h1:hover {
+  color: #c3023a;
+}
+
+.flexbox{
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction:  column;
+}
+
+
+.header{
+  color:white;
+  padding: 40px 90px 40px 90px;
+}
+.header p {
+  padding-top: 15px; 
+}
+
+.emailsContainer img {
+  width: 475px ; 
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.line hr{
+  border-bottom: 1px solid #888;
+  width: 10%
+}
+
+h4{
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 100px; 
+  color: #ffffff;
+}
+
+h6{
+  color:white;
+}
+
+/*bg gradient  */
+.main{
+  background-image: url('images/gradient.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-position: center bottom;
+  background-size: cover;
+}
+
+/*collapsibles container styling  */
+.intro{
+  padding: 40px 90px 40px 90px;
+}
+
+
+/* Footer */
+
+#footer{
+  line-height: 45px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  background-color:black;
+  color:white;
+  padding:40px;
+  box-shadow:inset 5px -5px 0px 5px rgba(0, 0, 0, 0.1);
+  text-shadow:2px 2px 2px #000000;
+}
+
+
+#footer a{
+  background-color:rgba(0,0,0,0.9);
+  color:white;
+  text-shadow:2px 2px 2px #000000;
+}
+.footer1{
+  background-color:rgba(0,0,0,0.9);
+  color:white; 
+  padding:40px;
+  display:flex;
+  flex-direction:column;
+}
+.footer2{
+  background-color:rgba(0,0,0,0.9);
+  color:white;
+  padding:40px;
+  display:flex;
+  flex-direction:column;
+}
