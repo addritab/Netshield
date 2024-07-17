@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Netshield</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- CSS And JS  -->
+
+    <link href="components.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="icon.png" type="image/png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="components.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Link for cards -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- SCRIPT for collapsibles  -->
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.7.8/build/spline-viewer.js"></script>
+   
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+        
+    </script>
+    <!-- Reset Repl CSS built-in styling-->
+    <style>
+        body, html {
+            /* background-color: #e3e3e3; */
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar-->
+    <div class="topnav">
+        <!--Home Dropdown Menu (WIP -Trust the process) -->
+        <img src="images/logo.png" width="105" height="105">
+        <div class="dropdown activenav">
+            <a href="index.html" style="color:#c3023a;"><i class="fi fi-br-angle-down"></i> Home</a>
+            <div class="dropdown-content">
+                <a href="index.html"><i class="fi fi-rr-angle-right"></i> Home</a>
+                <a href="index.html#missionStatement"><i class="fi fi-rr-angle-right"></i> Mission Statement</a>
+                <a href="index.html#aboutUs"><i class="fi fi-rr-angle-right"></i> About Us</a>
+            </div>
+        </div>
+        <a href="internetscams.html"><i class="fi fi-rr-envelope"></i> Internet Scams</a>
+        <a href="password.html"><i class="fi fi-rs-shield-keyhole"></i> Password Security</a>
+    </div>
+    <!--1st section of the page  -->
+    <div class='header'>
+        <br>
+        <div class="image">
+         <div class="flexbox">
+             <br></br>
+            <h1> NETSHIELD </h1>
+            <h5> Did you know that 30% of internet users <br> have experienced a data breach due to a </br> weak password and almost 97% of people <br> can't properly identify a scam email? </br> </h3>
+            <h6> Want to learn more? <a href="internetscams.html" class="buttonNetshield">Start Now</a></h6>
+
+         </div>
+        </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br> 
+    
+        <!--2nd section of the page -->
+        <div id="missionStatement">
+             <h1> Mission Statement</h1>
+         <p>Our intent is to educate through protection. We believe in digital security, especially with hopes of staying safe from dangers lurking around online. By providing basic knowledge, we aim to make individuals more aware about the risks online. Our commitment is to bring awareness and a desire for security by viewers, ensuring that everyone has the knowledge and skills to protect their digital identity and data.
+         </p>
+        </div>
+        <br></br><br></br><br></br>
+        <br></br> 
+
+    <!-- 3rd section -->
+    <div id="aboutUs">
+          <h1> About Us </h1>
+          <div id="aboutUs-content">
+       
+         <br>
+         <div class="team-member">
+         <div id="flipcard_output"></div>
+         <a style="color:white;width:150px;height:150px;text-decoration: none;" href="https://www.instagram.com/remkuro/"><i class="fi fi-brands-instagram"></i></a><br></br>
+         <h4>Web Developer</h4><br>
+         <p> Melonie is currently a student at Bayside High School for Computer Programming and Web Design. She enjoys creating things digitally, such as websites and games, fascinated by design and potential within. She plans to pursue computer science in college aspiring to be a software engineer one day. In her pastime, she likes to make digital illustrations and additionally swims.</p>
+         </div>
+          
+          <div class="team-member">
+          <div id="flipcard_output2"></div>  
+          <a style="color:white;width:150px;height:150px;text-decoration: none;" href="https://www.instagram.com/adeurita"><i class="fi fi-brands-instagram"></i></a><br></br>
+          <h4>Web Developer</h4><br>
+        <p> Addrita is currently a student at Manhattan Center High School for Science and Math. She has been a huge fan of graphic design and takes part in many other creative pursuits such as writing stories and poetry. She intends on majoring in Computer Science with a minor possibly in creative writing. During free time, she engages in writing poetry, video games, and physical fitness. </p>
+          </div>
+        <div class="team-member">
+        <div id="flipcard_output3"></div>
+        <a style="color:white;width:150px;height:150px;text-decoration: none;" href="https://www.instagram.com/sumrays11"><i class="fi fi-brands-instagram"></i></a><br></br>
+        <h4>Web Developer</h4><br>
+        <p> Summer is a student at Ocean Lakes High School in Virginia. She plans on pressuring computer science in college and hopes to become a software engineer. In her free time she enjoys watching TV and hanging out with friends.</p>
+        </div>
+        <div class="team-member">
+        <div id="flipcard_output4"></div>
+        <a style="color:white;width:150px;height:150px;text-decoration: none;" href="https://www.instagram.com/manshaarora97"><i class="fi fi-brands-instagram"></i></a><br></br>
+        <h4>Web Developer Assistant</h4><br>
+        <p> Mansha is a rising senior at Frisco High School in Texas. She plans on majoring in computer science in college and specializing in AI and web development in the future. In her free time she enjoys running, traveling, and shopping. </p>
+        </div>
+        </div>
+        <br></br>
+        <br></br>
+        <br></br>
+          </div>
+         </div>
+
+    <!-- Footer -->
+      <div id="footer">
+        <div class="footer1"
+        <hr>
+        <h4>Copyright 2024 by NetShield. All Rights Reserved.</h4>
+        <hr>
+        </div>
+        <div class="footer2">
+        <div>
+        <h4>Information Source</h4>
+        <hr>
+        <a href="https://www.texasattorneygeneral.gov/consumer-protection/how-spot-and-report-internet-and-email-scams">Texas Attorney General</a>
+        </div> 
+        </div>
+        </div>
+</body>
+
+</html>
