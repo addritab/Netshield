@@ -1,6 +1,6 @@
 # **NETSHIELD**
 
-Netshield is a cybersecurity beginner informative website created by me and three other groupmates. The intent of this website is to educate the general public on cyber scams and give general advice on how to stay safe. 
+Netshield is a cybersecurity beginner informative website created by me and three other team members. The intent of this website is to educate the general public on cyber scams and give general advice on how to stay safe. 
 
 ## About The Codes
 
